@@ -1,14 +1,16 @@
 <script>
-import { store } from './store.js'
-import AppHeader from './components/AppHeader.vue'
-import AppContent from './components/AppContent.vue'
-import AppFooter from './components/AppFooter.vue'
+import { store } from './store.js';
+import AppHeader from './components/AppHeader.vue';
+import AppContent from './components/AppContent.vue';
+import AppFooter from './components/AppFooter.vue';
+import AppCard from './components/AppCard.vue';
 
 export default {
   components: {
     AppHeader,
     AppContent,
     AppFooter,
+    AppCard,
   },
   data() {
     return {
@@ -23,7 +25,7 @@ export default {
 
   <div id="app">
     <AppHeader></AppHeader>
-    <AppContent></AppContent>
+    <AppCard/>
     <AppFooter></AppFooter>
 
   </div>
