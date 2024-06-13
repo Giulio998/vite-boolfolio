@@ -1,12 +1,17 @@
 <script>
+import router from '../router';
+
 
 export default {
   components: {
   },
   data() {
     return {
+      
     }
-  }
+  },
+
+  
 }
 
 </script>
@@ -15,12 +20,29 @@ export default {
 
   <header>
     <section class="bg-dark">
-      <div class="container py-5 text-center text-white">
-        <h1>HEADER</h1>
-      </div>
+      
+      <ul>
+        <li>
+          <RouterLink to="/" >Home</RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/portfolio" >Portfolio</RouterLink>
+        </li>
+        <li>
+          <RouterLink to="/contact" >Contact</RouterLink>
+        </li>
+      </ul>
+
+      
     </section>
   </header>
 
 </template>
 
-<style></style>
+<style>
+li{
+  color: white;
+}
+p{color: white;}
+
+</style>
