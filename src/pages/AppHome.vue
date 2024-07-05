@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="route-title">
-                <img src="../../public/home.png" alt="HOME">
+                <h1>Home</h1>
             </div>
         </div>
     </div>
